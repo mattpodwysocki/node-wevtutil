@@ -1,0 +1,32 @@
+{
+  "name": "wevtutil",
+  "version": "1.0.0",
+  "description": "Node.js utility for getting Windows ETW events",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpodwysocki/node-wevtutil.git"
+  },
+  "keywords": [
+    "ETW",
+    "Windows",
+    "Tracing",
+    "Events"
+  ],
+  "author": "Matthew Podwysocki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattpodwysocki/node-wevtutil/issues"
+  },
+  "homepage": "https://github.com/mattpodwysocki/node-wevtutil#readme",
+  "dependencies": {
+    "elementtree": "^0.1.6"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"
+  }
+}
